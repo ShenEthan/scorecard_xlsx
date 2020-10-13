@@ -7,6 +7,8 @@ from pandas.api.types import is_numeric_dtype
 import numpy as np
 import scorecardpy as sc
 import xlsxwriter as xl
+import sys
+sys.path.append('/Users/shenzhouyang/mycode/标准评分卡')
 
 
 class woe_trans():
