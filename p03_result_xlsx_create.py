@@ -7,7 +7,9 @@ from pandas.api.types import is_numeric_dtype
 import numpy as np
 import scorecardpy as sc
 import xlsxwriter as xl
-import p01_data_prepare as p1 
+import sys
+sys.path.append('/Users/shenzhouyang/mycode/标准评分卡')
+import scorecard_xlsx.p01_data_prepare as p1 
 
 class  result_create():
     '''
