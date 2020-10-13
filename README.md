@@ -1,3 +1,5 @@
-# scorecard_xlsx
-write the model results based on scorecard
-基于scorecardpy包产生模型变量分析结果，并将结果写入Excel
+
+
+文件p01_data_prepare.py，基于scorecardpy产生包括数据的分箱，iv计算，psi计算等；
+
+文件p03_result_xlsx_create.py，基于产生的结果数据，写入excel结果文档。
